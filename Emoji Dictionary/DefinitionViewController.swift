@@ -43,6 +43,15 @@ class DefinitionViewController: UIViewController {
         if emoji == "😀" {
             definitionLabel.text = "A Smiley Face!"
         }
+        if emoji == "🍣" {
+            definitionLabel.text = "A platter of Sushi!"
+        }
+        if emoji == "🤡" {
+            definitionLabel.text = "A Clown!"
+        }
+        if emoji == "🐷" {
+            definitionLabel.text = "The best pet to eat!"
+        }
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

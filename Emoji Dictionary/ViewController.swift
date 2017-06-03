@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var tableview: UITableView!
     
     
-    var emojis = ["😎","💩","😀","👠","🐹","🐬"]
+    var emojis = ["😎","💩","😀","👠","🐹","🐬","🍣","🤡","🐷"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
